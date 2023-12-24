@@ -1,0 +1,28 @@
+#empty_picture-select_button {
+    display: none;
+}
+
+#selected_picture-select_button {
+    background-color: #22c2d090;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s;
+    display: none;
+}
+
+#change_image_icon {
+    transform: scale(.6);
+    transition: all .3s;
+}
+
+#image_default_size {
+    display: none;
+}
+
+#selected_picture-select_button:hover {
+    opacity: 1;
+}
+
+#selected_picture-select_button:hover #change_image_icon {
+    transform: scale(1) !important;
+}

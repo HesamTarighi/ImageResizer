@@ -1,0 +1,35 @@
+input::placeholder {
+    color: #ffffff90 !important;
+}
+
+img {
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.error {
+    background-color: #e12323ed !important;
+}
+
+.success {
+    background-color: #18d467eb !important;
+}
